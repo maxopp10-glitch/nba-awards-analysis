@@ -1,143 +1,110 @@
-# NBA Awards Analysis (1989–2024)
+🏀 NBA MVP Awards — Data Analysis Project
+📌 Project Overview
 
-This project analyzes historical NBA award winners to understand how the statistical profiles of elite players have evolved over time.  
-The focus is on identifying long-term trends, efficiency shifts, and changes in evaluation criteria for major individual awards.
+This project analyzes NBA MVP (Most Valuable Player) award selections to identify the key performance factors that historically influence MVP outcomes. The objective is to demonstrate a structured, data-driven analytical approach, transforming raw sports data into clear insights and well-supported conclusions.
 
-The analysis is fully exploratory and descriptive, using Excel-based data analysis techniques rather than machine learning.
+Although based on sports data, the analytical methods applied are directly transferable to business, product, and performance analytics contexts.
 
----
+🎯 Objectives
 
-## Awards Analyzed
+Identify performance metrics most strongly associated with MVP selection
 
-The project focuses on three major NBA individual awards:
+Analyze the relationship between individual performance and team success
 
-- **Most Valuable Player (MVP)**
-- **Defensive Player of the Year (DPOY)**
-- **Rookie of the Year (ROY)**
+Explore historical trends and consistency in award decisions
 
----
+Demonstrate end-to-end analytical thinking, from data preparation to insights
 
-## Key Analytical Questions
+📊 Dataset & Scope
 
-This analysis was guided by the following questions:
+Historical NBA player and team performance data
 
-- How have MVP evaluation criteria shifted from raw production to efficiency?
-- Is modern defensive excellence driven more by per-minute impact than total defensive volume?
-- Are recent Rookie of the Year winners contributing less immediate impact than earlier generations?
-- Which statistical metrics are most strongly correlated with award-winning seasons?
-- How do trends differ across MVP, DPOY, and ROY awards over multiple decades?
+Multiple seasons analyzed to ensure trend consistency
 
----
+Metrics include:
 
-## Metrics Used
+Individual statistics (efficiency, scoring, impact metrics)
 
-All metrics are analyzed at the **player-season level**.
+Team performance indicators (wins, standings)
 
-### Production
-- Points per Game (PTS)
-- Rebounds per Game (TRB)
-- Assists per Game (AST)
+Comparative season-level analysis
 
-### Defense
-- Steals per Game (STL)
-- Blocks per Game (BLK)
+🛠 Tools & Methods
 
-### Efficiency
-- Field Goal Percentage (FG%)
+Excel (Advanced)
 
-### Impact
-- Win Shares (WS)
-- Win Shares per 48 Minutes (WS/48)
+Data cleaning and structuring
 
----
+Pivot tables and calculated metrics
 
-## Project Structure
+Comparative and trend analysis
 
-The Excel workbook is organized as follows:
+Analytical Techniques
 
-- **README**  
-  Project overview and scope.
+Exploratory Data Analysis (EDA)
 
-- **Data_MVP / Data_DPOY / Data_ROY**  
-  Cleaned and structured player-season datasets for each award.
+Comparative analysis across seasons
 
-- **MVP_Decade_Summary / DPOY_Decade_Summary / ROY_Decade_Summary**  
-  Decade-level pivot table summaries and comparative visualizations.
+Pattern and outlier identification
 
-- **MVP_Evolution / DPOY_Evolution / ROY_Evolution**  
-  Year-by-year trend analysis of key metrics.
+Data validation and consistency checks
 
-- **Correlation_MVP / Correlation_DPOY**  
-  Correlation analysis identifying which metrics most strongly relate to WS and WS/48.
+Documentation
 
-- **Final_Insights_MVP / Final_Insights_DPOY / Final_Insights_ROY**  
-  High-level conclusions and narrative insights for each award.
+Clear assumptions and methodology
 
-- **Final_Insights_Overall**  
-  League-wide synthesis comparing how MVP, DPOY, and ROY evaluation criteria have evolved.
+Reproducible analysis steps
 
----
+Insight-driven narrative
 
-## Key Findings (High-Level)
+🔍 Key Analysis & Insights
 
-### MVP
-- Long-term increase in scoring (PTS) and shooting efficiency (FG%).
-- Total impact (WS) remains relatively stable across decades.
-- Win Shares per 48 minutes (WS/48) shows a clear upward trend.
-- Modern MVPs generate elite value through efficiency rather than raw volume.
+MVP selections show strong correlation with elite individual performance combined with team success
 
-### DPOY
-- Decline in raw defensive volume metrics (TRB, BLK) over time.
-- WS/48 remains stable or slightly increases, indicating improved per-minute defensive efficiency.
-- Defensive excellence has become more role-specific and system-driven.
+Certain advanced performance metrics are consistently present among MVP winners
 
-### ROY
-- Consistent decline in both WS and WS/48 across decades.
-- Earlier ROY winners contributed more immediate on-court impact.
-- Modern ROYs are integrated more gradually, emphasizing development and long-term potential.
+Outlier cases were identified and analyzed to understand exceptions to typical patterns
 
-### League-Wide Trend
-Across all awards, the NBA has shifted from volume-based dominance toward:
-- Efficiency
-- Contextual value
-- Role optimization
-- Per-minute impact
-- Long-term player trajectory
+The analysis reinforces the importance of contextual performance evaluation, not single metrics
 
----
+📈 Business & Analytical Value
 
-## Tools & Skills Demonstrated
+This project demonstrates skills highly relevant to Data Analyst roles, including:
 
-- Microsoft Excel (advanced pivot tables and charts)
-- Descriptive statistical analysis
-- Correlation analysis
-- Trend analysis across decades
-- Data cleaning and metric standardization
-- Analytical storytelling and insight synthesis
+Translating raw data into actionable insights
 
----
+Evaluating performance drivers and KPIs
 
-## Files
+Applying structured reasoning to complex datasets
 
-- **NBA_Awards_Analysis_1989_2024_Portfolio.xlsx**  
-  Main analysis workbook containing all data, charts, and insights.
+Communicating findings through clear narratives and visual summaries
 
----
+Maintaining analytical rigor, accuracy, and documentation standards
 
-## Notes
+📂 Project Structure
 
-- This project is intended as a **portfolio-level data analysis case study**.
-- The focus is on interpretability, insight generation, and analytical reasoning.
-- No predictive modeling or machine learning techniques are used.
+/data — raw and structured datasets
 
----
+/analysis — analysis steps and calculations
 
-## Author
+README.md — project overview, methodology, and insights
 
-Created by **Max Oppermann**  
-Data Analyst | Materials Engineering Background | Sports Analytics Enthusiast
----
+🚀 Why This Project Matters
 
-## 📎 File
+While the subject is sports analytics, the approach mirrors real-world business analysis:
 
-- `NBA_Awards_Analysis_1989_2024.xlsx`
+KPI definition and evaluation
+
+Performance benchmarking
+
+Trend analysis across time
+
+Decision support through data
+
+This project highlights my ability to think analytically, work independently, and deliver insights that support informed decision-making — core requirements for Data Analyst positions.
+
+📎 Author
+
+Max Oppermann
+Data Analyst
+GitHub: https://github.com/maxopp10-glitch
