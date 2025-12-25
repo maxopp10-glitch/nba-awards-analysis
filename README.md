@@ -106,5 +106,5 @@ This project highlights my ability to think analytically, work independently, an
 📎 Author
 
 Max Oppermann
-Data Analyst
+Data Analyst - Material Engineering Background - Sports Analysis Enthusiast
 GitHub: https://github.com/maxopp10-glitch
