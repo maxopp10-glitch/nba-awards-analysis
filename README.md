@@ -1,110 +1,199 @@
-🏀 NBA MVP Awards — Data Analysis Project
-📌 Project Overview
+# 🏀 NBA Awards Analysis | 1989–2024
 
-This project analyzes NBA MVP (Most Valuable Player) award selections to identify the key performance factors that historically influence MVP outcomes. The objective is to demonstrate a structured, data-driven analytical approach, transforming raw sports data into clear insights and well-supported conclusions.
+**Exploratory Data Analysis & Interactive Dashboard | Power BI • Excel**
 
-Although based on sports data, the analytical methods applied are directly transferable to business, product, and performance analytics contexts.
+This project analyzes historical NBA award winners from 1989 to 2024, focusing on **MVP (Most Valuable Player), DPOY (Defensive Player of the Year), and ROY (Rookie of the Year)**.
 
-🎯 Objectives
+The objective is to explore how player performance profiles and award patterns have evolved over time, combining exploratory data analysis with an interactive Power BI dashboard.
 
-Identify performance metrics most strongly associated with MVP selection
+Although based on sports data, the project demonstrates analytical skills that are directly transferable to business, product, and performance analytics: data preparation, metric definition, exploratory analysis, trend identification, visualization, and communication of insights.
 
-Analyze the relationship between individual performance and team success
+---
 
-Explore historical trends and consistency in award decisions
+## 📊 Power BI Dashboard
 
-Demonstrate end-to-end analytical thinking, from data preparation to insights
+As an extension of the original Excel-based exploratory analysis, I developed an interactive Power BI dashboard to explore historical NBA award patterns and compare performance profiles across MVP, DPOY, and ROY winners.
 
-📊 Dataset & Scope
+The dashboard allows users to:
 
-Historical NBA player and team performance data
+- Switch between MVP, DPOY, and ROY award categories
+- Filter the analysis by season range
+- Track key performance indicators across award winners
+- Analyze changes in player efficiency over time
+- Compare scoring trends across decades
+- Explore individual award winners and their performance metrics
 
-Multiple seasons analyzed to ensure trend consistency
+### Dashboard Preview
 
-Metrics include:
+![Power BI Dashboard Overview](imagens/dashboard_overview.jpg)
 
-Individual statistics (efficiency, scoring, impact metrics)
+> The interactive Power BI dashboard is currently maintained locally. The preview above demonstrates its design, analytical structure, and main functionality.
 
-Team performance indicators (wins, standings)
+---
 
-Comparative season-level analysis
+## 🎯 Objectives
 
-🛠 Tools & Methods
+The project was designed to:
 
-Excel (Advanced)
+- Explore historical performance patterns among NBA award winners
+- Compare MVP, DPOY, and ROY performance profiles
+- Analyze the relationship between individual performance metrics and award outcomes
+- Identify long-term trends across different NBA eras
+- Build an interactive dashboard for exploratory analysis
+- Demonstrate an end-to-end analytical workflow from data preparation to insight communication
 
-Data cleaning and structuring
+---
 
-Pivot tables and calculated metrics
+## 📈 Metrics Analyzed
 
-Comparative and trend analysis
+The analysis incorporates player and team performance indicators, including:
 
-Analytical Techniques
+- Points per game (PTS)
+- Total rebounds (TRB)
+- Assists (AST)
+- Steals (STL)
+- Blocks (BLK)
+- Win Shares (WS)
+- Win Shares per 48 minutes (WS/48)
 
-Exploratory Data Analysis (EDA)
+These metrics provide different perspectives on scoring, all-around contribution, defensive performance, and player efficiency.
 
-Comparative analysis across seasons
+---
 
-Pattern and outlier identification
+## 🔎 Analytical Approach
 
-Data validation and consistency checks
+The project follows a structured analytical workflow.
 
-Documentation
+### 1. Data Preparation
 
-Clear assumptions and methodology
+Historical NBA player and award data were organized and prepared for analysis.
 
-Reproducible analysis steps
+The dataset was reviewed to ensure that relevant seasons, award categories, player statistics, and performance metrics could be analyzed consistently.
 
-Insight-driven narrative
+### 2. Exploratory Data Analysis
 
-🔍 Key Analysis & Insights
+Excel was used to explore the data, validate metrics, compare player performance, and investigate historical patterns.
 
-MVP selections show strong correlation with elite individual performance combined with team success
+The analysis focused on understanding how performance profiles differ across award categories and how these patterns have changed over time.
 
-Certain advanced performance metrics are consistently present among MVP winners
+### 3. Metric Analysis
 
-Outlier cases were identified and analyzed to understand exceptions to typical patterns
+Key performance indicators were evaluated to understand different dimensions of player performance, including scoring, efficiency, defensive contribution, and overall impact.
 
-The analysis reinforces the importance of contextual performance evaluation, not single metrics
+### 4. Data Visualization
 
-📈 Business & Analytical Value
+The analysis was extended into Power BI to make the results easier to explore interactively.
 
-This project demonstrates skills highly relevant to Data Analyst roles, including:
+Filters, KPI cards, trend visualizations, decade comparisons, and a detailed winners table allow users to investigate the data from different perspectives.
 
-Translating raw data into actionable insights
+### 5. Insight Communication
 
-Evaluating performance drivers and KPIs
+The final dashboard was designed to transform the analytical results into a clear and accessible format that supports exploration and interpretation.
 
-Applying structured reasoning to complex datasets
+---
 
-Communicating findings through clear narratives and visual summaries
+## 💡 Dashboard Features
 
-Maintaining analytical rigor, accuracy, and documentation standards
+### Award Selection
 
-📂 Project Structure
+Users can switch between:
 
-/data — raw and structured datasets
+- MVP
+- DPOY
+- ROY
 
-/analysis — analysis steps and calculations
+This allows performance profiles to be compared across awards with different selection criteria.
 
-README.md — project overview, methodology, and insights
+### Season Range
 
-🚀 Why This Project Matters
+An interactive season filter enables analysis across the complete 1989–2024 period or selected historical ranges.
 
-While the subject is sports analytics, the approach mirrors real-world business analysis:
+### KPI Summary
 
-KPI definition and evaluation
+The dashboard dynamically displays metrics such as:
 
-Performance benchmarking
+- Number of seasons analyzed
+- Average Win Shares
+- Average WS/48
+- Average points per game
 
-Trend analysis across time
+### Efficiency Evolution
 
-Decision support through data
+A historical trend visualization tracks **WS/48**, helping explore how the efficiency profiles of award winners have changed over time.
 
-This project highlights my ability to think analytically, work independently, and deliver insights that support informed decision-making — core requirements for Data Analyst positions.
+### Scoring by Decade
 
-📎 Author
+Average points per game are compared across decades to identify broader historical scoring patterns.
 
-Max Oppermann
-Data Analyst - Material Engineering Background - Sports Analysis Enthusiast
-GitHub: https://github.com/maxopp10-glitch
+### Award Winners Explorer
+
+A detailed table allows individual winners to be examined by season, team, and key performance metrics.
+
+---
+
+## 🛠️ Tools & Skills
+
+### Power BI
+
+- Interactive dashboard development
+- KPI design
+- Filters and slicers
+- Data visualization
+- Trend analysis
+
+### Excel
+
+- Data preparation
+- Exploratory data analysis
+- Data validation
+- Metric analysis
+
+### Analytical Skills
+
+- Exploratory Data Analysis (EDA)
+- Data cleaning and preparation
+- Trend and pattern identification
+- Performance analysis
+- Data visualization
+- Data storytelling
+
+---
+
+## 📁 NBA_Awards_Analysis_1989_2024
+
+- `README.md` — project documentation
+- `NBA_Awards_Analysis_1989_2024...` — main project file
+- `imagens/`
+  - `dashboard_overview.jpg` — Power BI dashboard preview
+
+> **Note:** Replace `NBA_Awards_Analysis_1989_2024...` above with the exact filename shown in the repository.
+
+---
+
+## ⚠️ Limitations
+
+This project is an exploratory analysis of historical NBA award data.
+
+Award selection cannot be explained solely by the statistical metrics included in the dataset. Voting decisions may also reflect factors not captured in the analysis, including team context, player roles, narrative, voter preferences, and changes in how basketball has been played across different eras.
+
+Therefore, the analysis should be interpreted as an exploration of historical patterns and performance profiles rather than a causal model of award selection.
+
+---
+
+## 🚀 Future Improvements
+
+Potential extensions of the project include:
+
+- Expanding the dashboard with additional advanced metrics
+- Comparing award winners with other top-performing players from the same seasons
+- Investigating relationships between team success and individual awards
+- Adding additional contextual variables
+- Extending the analysis to future NBA seasons
+
+---
+
+## 👤 Author
+
+**Max Oppermann**
+
+Data & Analytics professional with a background in engineering and experience in data analysis, business intelligence, data quality, and analytical problem-solving.
